@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shadab-ans/Portfolio/static/css/main.a01ec390.css",
+    "main.js": "/shadab-ans/Portfolio/static/js/main.c2e86451.js",
+    "static/media/me.png": "/shadab-ans/Portfolio/static/media/me.ec78e50e322a121543ae.png",
+    "static/media/me-about.png": "/shadab-ans/Portfolio/static/media/me-about.2f3880d3397a54f9f74f.png",
+    "static/media/portfolio5.png": "/shadab-ans/Portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/shadab-ans/Portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/shadab-ans/Portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/shadab-ans/Portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/Resume.pdf": "/shadab-ans/Portfolio/static/media/Resume.45d525f104c2fbaabe9d.pdf",
+    "static/media/portfolio3.jpg": "/shadab-ans/Portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/shadab-ans/Portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/logo.png": "/shadab-ans/Portfolio/static/media/logo.75b31d13b0b09c694c74.png",
+    "index.html": "/shadab-ans/Portfolio/index.html",
+    "main.a01ec390.css.map": "/shadab-ans/Portfolio/static/css/main.a01ec390.css.map",
+    "main.c2e86451.js.map": "/shadab-ans/Portfolio/static/js/main.c2e86451.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a01ec390.css",
+    "static/js/main.c2e86451.js"
+  ]
+}
