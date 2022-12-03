@@ -1,13 +1,22 @@
-import React from 'react'
-import CV from '../../assets/Resume.pdf'
+import React from "react";
+import CV from "../../assets/Resume.pdf";
+import Slide from "react-reveal/Slide";
 
 const CTA = () => {
   return (
-    <div className='cta'>
-      <a href={CV} download className='btn'>Download Resume</a>
-      <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+    <div className="cta">
+      <Slide left>
+        <a href={CV} download className="btn">
+          Download Resume
+        </a>
+      </Slide>
+      <Slide right>
+        <a href="#contact" className="btn btn-primary">
+          Let's Talk
+        </a>
+      </Slide>
     </div>
-  )
-}
+  );
+};
 
-export default CTA
+export default CTA;
