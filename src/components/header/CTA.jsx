@@ -7,7 +7,7 @@ const CTA = () => {
     <div className="cta">
       <Slide left>
         <a href={CV} download className="btn">
-          Download Resume
+          Download CV
         </a>
       </Slide>
       <Slide right>
