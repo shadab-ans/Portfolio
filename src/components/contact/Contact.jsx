@@ -4,8 +4,24 @@ import { MdOutlineEmail } from "react-icons/md";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Fade from "react-reveal/Fade";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_6hznxkn', 'template_v3thnso', form.current, '_9pimHj2wabZGzFqE')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
+
   return (
     <section id="contact">
       <Fade bottom>
@@ -65,7 +81,7 @@ const Contact = () => {
           </Fade>
         </div>
         {/* END OF CONTACT OPTION */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <Fade right>
             <input
               type="text"
